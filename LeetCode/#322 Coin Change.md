@@ -11,7 +11,7 @@ class Solution {
             if(i>=coins[j]){
                total[i]=Math.min(total[i-coins[j]]+1,total[i]);
             }                
-		    }
+        }
     }
     return total[amount] > amount ? -1 : total[amount];
   }
