@@ -3,12 +3,11 @@
 - n x n 2D 행렬을 시계 방향으로 90도 회전시키는 문제.
 - 주의할 점: 다른 2D 행렬을 할당하지 않고 직접 수정하기.
 
-![#48%20Rotate%20Image%202c63c864b7674220905bdacc7876af92/48.Rotate_Image_1.jpg](#48%20Rotate%20Image%202c63c864b7674220905bdacc7876af92/48.Rotate_Image_1.jpg)
+![48 Rotate Image_1](https://user-images.githubusercontent.com/64471645/115522668-4719d900-a2c7-11eb-917f-4886c68cd657.JPG)
 
-![#48%20Rotate%20Image%202c63c864b7674220905bdacc7876af92/48.Rotate_Image_2.jpg](#48%20Rotate%20Image%202c63c864b7674220905bdacc7876af92/48.Rotate_Image_2.jpg)
+![48 Rotate Image_2](https://user-images.githubusercontent.com/64471645/115522743-5862e580-a2c7-11eb-841e-205b0bc985e2.JPG)
 
-![#48%20Rotate%20Image%202c63c864b7674220905bdacc7876af92/48.Rotate_Image_3.jpg](#48%20Rotate%20Image%202c63c864b7674220905bdacc7876af92/48.Rotate_Image_3.jpg)
-
+![48 Rotate Image_3](https://user-images.githubusercontent.com/64471645/115522803-644ea780-a2c7-11eb-8d8d-bfcc97dcfd60.JPG)
 ---
 
 ```java
