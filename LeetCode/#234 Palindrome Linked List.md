@@ -1,5 +1,11 @@
 # #234 Palindrome Linked List
 
+- 팰린드롬(palindrome)이란 우리 말로 '회문(回文)'으로 번역되며 'eye', 'civic'처럼 역순으로 읽어도 같은 말이나 구절 또는 숫자를 말한다.
+- 주어진 ListNode가 회문이면 true를 반환하는 문제.
+
+![234 Palindrome Linked List_1](https://user-images.githubusercontent.com/64471645/115528261-d970ab80-a2cc-11eb-97c7-96a195c158d8.JPG)
+---
+
 ```java
 import java.util.*;
 
@@ -30,7 +36,7 @@ class Solution {
     }
 }
 ```
-
+---
 ```java
 // TEST CODE
 
@@ -75,6 +81,52 @@ public class SolutionTest {
         Assert.assertEquals(true, s.solution(l3));
 
         Assert.assertEquals(true, s.solution(l4));
+    }
+}
+```
+
+---
+```java
+// Before Refactoring
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public boolean isPalindrome(ListNode head) {
+        
+        if(head.next == null) return true;
+
+        List<Integer> list = new ArrayList<>();
+        List<Integer> inReverseList = new ArrayList<>();
+        int headCnt = 0;
+
+        while(head!=null) {
+            list.add(head.val);
+            head = head.next;
+            headCnt++;
+        }
+        if(headCnt % 2 == 0) {
+            for(int i=headCnt-1; i>=headCnt/2; i--) {
+                inReverseList.add(list.get(i));
+            }
+        }
+        else {
+            for(int i=headCnt-1; i>headCnt/2; i--) {
+                inReverseList.add(list.get(i));
+            }
+        }
+        for(int i=0; i<headCnt/2; i++) {
+            if(list.get(i) != inReverseList.get(i)) return false;
+        }
+        return true;        
     }
 }
 ```
