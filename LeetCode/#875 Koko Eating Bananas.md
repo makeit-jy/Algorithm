@@ -1,8 +1,8 @@
 # #875 Koko Eating Bananas
 
-![#875%20Koko%20Eating%20Bananas%20e441797bcb1544d3bc048bd824b7146a/875.Koko_Eating_Bananas_1.jpg](#875%20Koko%20Eating%20Bananas%20e441797bcb1544d3bc048bd824b7146a/875.Koko_Eating_Bananas_1.jpg)
+![875 Koko Eating Bananas_1](https://user-images.githubusercontent.com/64471645/121039066-bbfb9080-c7eb-11eb-8ba0-5dcafc7779f8.JPG)
 
-![#875%20Koko%20Eating%20Bananas%20e441797bcb1544d3bc048bd824b7146a/875.Koko_Eating_Bananas_2.jpg](#875%20Koko%20Eating%20Bananas%20e441797bcb1544d3bc048bd824b7146a/875.Koko_Eating_Bananas_2.jpg)
+![875 Koko Eating Bananas_2](https://user-images.githubusercontent.com/64471645/121039227-e1889a00-c7eb-11eb-9431-8b18bdd5ece9.JPG)
 
 ---
 
