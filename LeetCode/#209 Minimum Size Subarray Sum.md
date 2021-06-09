@@ -4,7 +4,9 @@
 - 조건에 부합하는 하위 배열이 없다면 return 0;
 - 투 포인터와 적절한 위치에서 return해서 시간복잡도를 줄임.
 
-![#209%20Minimum%20Size%20Subarray%20Sum%20ce0985882ade4ff5868ed2f0c8e16cde/209.Minimum_Size_Subarray_Sum.jpg](#209%20Minimum%20Size%20Subarray%20Sum%20ce0985882ade4ff5868ed2f0c8e16cde/209.Minimum_Size_Subarray_Sum.jpg)
+![209 Minimum Size Subarray Sum](https://user-images.githubusercontent.com/64471645/121354032-72d14b00-c969-11eb-85e0-9e0b6fb39389.JPG)
+
+---
 
 ```java
 class Solution {
@@ -25,6 +27,7 @@ class Solution {
     }
 }
 ```
+---
 
 ```java
 // TEST CODE
